@@ -1,0 +1,11 @@
+# wrangler.toml
+name = "gemini-balance"
+main = "main.py" # The entrypoint for your Flask app
+compatibility_date = "2024-05-01"
+# Add the following section if you need environment variables for API keys, etc.
+# [vars]
+# ALLOMED_TOKENS = "your_secret_tokens_here"
+# DATABASE_URL = "your_database_url_here"
+
+[build]
+command = "pip install -r requirements.txt"
